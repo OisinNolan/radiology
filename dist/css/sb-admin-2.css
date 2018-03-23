@@ -3,6 +3,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ 
+
 body {
   background-color: #f8f8f8;
 }
@@ -12,20 +14,9 @@ body {
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: white
 }
-#dashboardButton {
-  font-size: 18px;
-}
-#chartsButton {
-  font-size: 18px;
-}
-#tablesButton {
-  font-size: 18px;
-}
-#formsButton {
-  font-size: 18px;
-}
+
 @media (min-width: 768px) {
   #page-wrapper {
     position: inherit;
@@ -35,15 +26,11 @@ body {
   }
 }
 
-.navbar{
-  background-color: #3355aa;
-}
-.navbar-default .navbar-brand{
-  color: white;
   font-family: 'Comfortaa', cursive;
   font-size: 25px;
   font-weight: bold;
   padding-left: 20px;
+
 
 }
 .navbar-top-links {
@@ -56,7 +43,7 @@ body {
   margin-right: 15px;
 }
 .navbar-top-links li a {
-  padding: 15px;
+  padding: 12px;
   min-height: 50px;
 }
 .navbar-top-links .dropdown-menu li {
@@ -65,7 +52,7 @@ body {
 .navbar-top-links .dropdown-menu li:last-child {
   margin-right: 0;
 }
-.navbar-top-links .dropdown-menu li a {
+.navbar-top-links .drfopdown-menu li a {
   padding: 3px 20px;
   min-height: 0;
 }
@@ -91,7 +78,23 @@ body {
   right: 0;
   left: auto;
 }
+
+/*SIDEBAR*/
+
+.sidebar-elements{
+font-size: 18px;
+}
+#dashboardButton {
+}
+#chartsButton {
+}
+#tablesButton {
+}
+#formsButton {
+}
+
 .sidebar .sidebar-nav.navbar-collapse {
+
   padding-left: 0;
   padding-right: 0;
 }
